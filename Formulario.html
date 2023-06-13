@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/jpg" href="https://i.ytimg.com/vi/IcQqT2U0zXM/maxresdefault.jpg">
+        <title>Seminario de Programacion</title>
+        <style>
+           body {
+        background-image: url('https://th.bing.com/th/id/R.941f698eb433f8754dfc6e9c329059b4?rik=ccDLsaCNFltfmw&riu=http%3a%2f%2fsubeimagen.infojardin.com%2fsuba-fotos%2fimages%2f5e861c53062c8.jpg&ehk=ETDjp0IqK672mxmnQvauSHd5AGs1XA81nhhF8RZOy9o%3d&risl=&pid=ImgRaw&r=0');
+        background-size: contain;
+        background-position: center;
+    
+        height: auto;
+        width: auto;
+        }
+       </style>
+       <link rel="stylesheet"  href="Formulario.estilos.css">
+</head>
+
+<body class="colorletra">
+  <header><div id="Encabezado"><h1 class="tamañoletra">MIRAGE IIIEA</h1></div></header>
+  <h2 class="tamañoletra1">
+    Estadisticas
+    <div class="div1">
+      <ol>
+        <li>Dimensiones.
+          <ul>
+            <li>Longitud: 15.03 metros.</li>
+            <li>Envergadura: 8.22 metros.</li>
+            <li>Altura: 4.5 metros.</li>
+            <li>Peso vacío: Alrededor de 7,700 kilogramos.</li>
+            <li>Peso máximo al despegue: Alrededor de 15,500 kilogramos.</li>
+          </ul>
+        </li>
+        <li>Motorizacion:
+          <ul>
+            <li>Motor: Un motor Snecma Atar 09C con postquemador.</li>
+            <li>Empuje: Alrededor de 7,700 kilogramos de empuje con postquemador.</li>
+          </ul>
+        </li>
+        <li>Velocidad:
+          <ul>
+            <li>Velocidad máxima: Aproximadamente Mach 2.2 (2,717 km/h).</li>
+            <li>Velocidad de crucero: Alrededor de Mach 0.95 (1,174 km/h).</li>
+          </ul>
+        </li>
+        <li>Alcance:
+          <ul>
+            <li>Alcance máximo: Aproximadamente 2,400 kilómetros.</li>
+          </ul>
+        </li>
+        <li>Armamento:
+          <ul>
+            <li>Cañones: Dos cañones DEFA de 30 mm en la parte inferior del fuselaje.</li>
+            <li>Puntos de anclaje: Capacidad para transportar cargas externas en varios puntos de.</li>
+            <li>anclaje, como misiles aire-aire, bombas, cohetes, entre otros.</li>
+          </ul>
+        </li>
+        <li>Capacidad de Tripulantes:
+          <ul>
+            <li>Un Pasajero.</li>
+          </ul>
+        </li>
+
+      </ol>
+    </div>
+  </h2>
+  <h4 class="h4">Ayuda en la guerra<div class="div">
+    <p>El Mirage IIIEA fue utilizado por la Fuerza Aérea Argentina durante el conflicto del Atlántico Sur en 1982, más conocido como la Guerra de las Malvinas. Durante este conflicto, los Mirages argentinos desempeñaron un papel importante en las operaciones de combate, llevando a cabo misiones de ataque y defensa aérea contra las fuerzas británicas.</p>
+
+  </div></h4>
+ <img src="https://th.bing.com/th/id/OIP.NNIAnj43l_xud38FDzOGgQHaFA?pid=ImgDet&rs=1" class="mirage">
+ <h5 class="video"><iframe  width="300" height="300" src="https://www.youtube.com/embed/Gz9Iison9cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</h5>
+<form class="form">
+  Te gusto mi pagina?<br>
+ <input type="radio" name="opcion" value="opcion1"> Si<br>
+ <input type="radio" name="opcion" value="opcion2"> No<br>
+ <input type="submit" value="Enviar" onclick="mostrarMensaje()">
+</form>
+
+<script>
+ function mostrarMensaje() {
+   var opciones = document.getElementsByName("opcion");
+   var seleccionada = null;
+
+   for (var i = 0; i < opciones.length; i++) {
+     if (opciones[i].checked) {
+       seleccionada = opciones[i].value;
+       break;
+     }
+   }
+
+   if (seleccionada === "opcion1") {
+     alert("Gracias!, Aprobame ☺");
+   } else if (seleccionada === "opcion2") {
+     alert("Debes Seleccionar una opción");
+   } else {
+     alert("Debes seleccionar una opción");
+   }
+ }
+</script>
+<div class="publicidad">
+<a href="https://caaairsoft.com/">
+  <img width="200" height="100" src="https://th.bing.com/th/id/OIP.icNVc_UaxU1z4qbWRubekQHaD4?pid=ImgDet&rs=1" alt="Descripción de la imagen">
+</a>
+</div>
+</html>
